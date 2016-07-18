@@ -74,3 +74,8 @@ test_script:
   - stdlib.exe
   - del stdlib.exe
 
+artifacts:
+  - path: build\%CONFIGURATION%
+    name: ponyc
+
+
